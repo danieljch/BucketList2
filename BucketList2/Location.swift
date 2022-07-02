@@ -7,10 +7,10 @@
 
 import Foundation
 import CoreLocation
-struct Location: Identifiable
+struct Location: Identifiable, Equatable
 {
-    let id : UUID
-    let name : String
+    var id : UUID
+    var name : String
     var description: String
     let latitude: Double
     let longitude: Double
