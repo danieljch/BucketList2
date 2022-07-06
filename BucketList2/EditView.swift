@@ -35,7 +35,8 @@ struct EditView: View {
                             Text(page.title)
                                 .font(.headline)
                             + Text(": ") +
-                            Text(page.description)
+                            Text(page.description
+                            )
                                 .italic()
                         }
                     case .failed:

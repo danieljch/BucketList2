@@ -14,6 +14,8 @@
 		30BDCB832866107E00FEAC23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BDCB822866107E00FEAC23 /* ContentView.swift */; };
 		30BDCB852866108100FEAC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BDCB842866108100FEAC23 /* Assets.xcassets */; };
 		30BDCB882866108100FEAC23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BDCB872866108100FEAC23 /* Preview Assets.xcassets */; };
+		30EC786D287513F500D8D9EA /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC786C287513F500D8D9EA /* ContentView-ViewModel.swift */; };
+		30EC786F287516BA00D8D9EA /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC786E287516BA00D8D9EA /* FileManager-DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		30BDCB822866107E00FEAC23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30BDCB842866108100FEAC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30BDCB872866108100FEAC23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30EC786C287513F500D8D9EA /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		30EC786E287516BA00D8D9EA /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			children = (
 				30BDCB802866107E00FEAC23 /* BucketList2App.swift */,
 				30BDCB822866107E00FEAC23 /* ContentView.swift */,
+				30EC786C287513F500D8D9EA /* ContentView-ViewModel.swift */,
+				30EC786E287516BA00D8D9EA /* FileManager-DocumentsDirectory.swift */,
 				30AF4796286B5B34003F9AE4 /* Location.swift */,
 				30B174282870E41B002C196A /* Result.swift */,
 				30BDCB842866108100FEAC23 /* Assets.xcassets */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				30BDCB832866107E00FEAC23 /* ContentView.swift in Sources */,
+				30EC786F287516BA00D8D9EA /* FileManager-DocumentsDirectory.swift in Sources */,
+				30EC786D287513F500D8D9EA /* ContentView-ViewModel.swift in Sources */,
 				30B174292870E41B002C196A /* Result.swift in Sources */,
 				30AF4797286B5B34003F9AE4 /* Location.swift in Sources */,
 				30B21BF0286E0E8A00F39D64 /* EditView.swift in Sources */,

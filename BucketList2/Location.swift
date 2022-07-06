@@ -7,7 +7,7 @@
 
 import Foundation
 import CoreLocation
-struct Location: Identifiable, Equatable
+struct Location: Identifiable, Equatable, Codable
 {
     var id : UUID
     var name : String
